@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="zh-tw\01.md" />
+    <None Include="zh-tw\02.md" />
+    <None Include="zh-tw\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="XMLSample\PurchaseOrder.xml" />
