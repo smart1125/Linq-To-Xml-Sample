@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01-UserEntry\UserEntry.cs" />
     <Compile Include="02-Programmer%27sOverview\Programmer%27sOverview.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,6 +54,7 @@
     <None Include="zh-tw\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="XMLResult\01.xml" />
     <Content Include="XMLSample\PurchaseOrder.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
