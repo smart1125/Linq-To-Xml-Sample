@@ -43,18 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="02-Programmer%27sOverview\Programmer%27sOverview.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="XMLSample\CustomersOrders.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="zh-tw\01.md" />
     <None Include="zh-tw\02.md" />
+    <None Include="zh-tw\03.md" />
     <None Include="zh-tw\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="XMLResult\01.xml" />
+    <Content Include="XMLSample\book.xml" />
+    <Content Include="XMLSample\CustomersOrders.xml" />
     <Content Include="XMLSample\PurchaseOrder.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
