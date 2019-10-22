@@ -54,6 +54,7 @@
     <None Include="zh-tw\01.md" />
     <None Include="zh-tw\02.md" />
     <None Include="zh-tw\03.md" />
+    <None Include="zh-tw\04.md" />
     <None Include="zh-tw\README.md" />
   </ItemGroup>
   <ItemGroup>
