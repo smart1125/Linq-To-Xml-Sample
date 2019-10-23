@@ -12,7 +12,7 @@ see [MSDN](https://docs.microsoft.com/zh-tw/dotnet/csharp/programming-guide/conc
 * [LINQ to XML 程式設計概觀](02.md)
 * [XML 樹狀結構](03.md)
 * [使用 XML 命名空間](04.md)
-* [序列化 XML 樹狀結構]()
+* [序列化 XML 樹狀結構](05.md)
 * [LINQ to XML 軸]()
 * [查詢 XML 樹狀]()
 * [修改 XML 樹狀結構]()
