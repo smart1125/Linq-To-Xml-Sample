@@ -48,7 +48,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="README.md" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="packages.config" />
+    <None Include="scripts\angular-sanitize.min.js.map" />
+    <None Include="scripts\angular.min.js.map" />
+    <None Include="scripts\jquery-1.9.1.min.map" />
     <None Include="XMLSample\CustomersOrders.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -57,13 +63,33 @@
     <None Include="zh-tw\03.md" />
     <None Include="zh-tw\04.md" />
     <None Include="zh-tw\05.md" />
+    <None Include="zh-tw\06.md" />
     <None Include="zh-tw\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="XMLResult\01.xml" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="scripts\angular-mocks.js" />
+    <Content Include="scripts\angular-sanitize.js" />
+    <Content Include="scripts\angular-sanitize.min.js" />
+    <Content Include="scripts\angular.js" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="scripts\jquery-1.9.1.js" />
+    <Content Include="scripts\jquery-1.9.1.min.js" />
+    <Content Include="XMLResult\01.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="XMLSample\book.xml" />
     <Content Include="XMLSample\CustomersOrders.xml" />
     <Content Include="XMLSample\PurchaseOrder.xml" />
+    <Content Include="XMLSample\PurchaseOrderInNamespace.xml" />
+    <Content Include="XMLSample\PurchaseOrdersInNamespace.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,5 +8,5 @@ see [MSDN](https://docs.microsoft.com/zh-tw/dotnet/csharp/programming-guide/conc
 > 
 >旅程開始：
 ----
-* [中文版目錄](zh-tw\README.md)
+* [中文版目錄](Linq-To-Xml-Sample\zh-tw\README.md)
 
